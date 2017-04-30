@@ -1,0 +1,38 @@
+---
+title: "Capstone Projcet - Predicting Income Class of U.S. Population"
+author: "Marvin Edmond"
+date: "April 28, 2017"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Proposal
+
+### What is the problem you want to solve?
+
+I want to predict the income class of the U.S. population using machine learning.
+
+### Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn't have otherwise?
+
+My client is the United States Congress. They are looking to reform our outdated tax structure by developing a modernized system.
+
+### What data are you going to use for this? How will you acquire this data?
+
+I am going to use U.S. census data from the U.S. Census Bureau.
+
+### In brief, outline your approach to solving this problem (knowing that this might change later).
+
+* First, I will collect all data availble in order to properly gain a holisitc view of the U.S. population. 
+* I will narrow my testing to more specific variables that will provide a better determination of income class. 
+* I will perform summary analysis to determine what are the highest, middle and lowest income levels. Then I will filter these results by age, gender and education level.
+* Afterwards, I will create a machine learning algorithm to loop and automate an income predictor model dependent upon the previously selected variables.
+
+### What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+
+My deliverables will be code, an rmd file and slides.
