@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### What is the problem you want to solve?
 
-I want to predict the income class of the U.S. population using machine learning.
+I want to predict whether income exceeds $50K/yr based on census data.
 
 ### Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn't have otherwise?
 
